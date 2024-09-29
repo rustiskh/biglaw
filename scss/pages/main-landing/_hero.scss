@@ -1,0 +1,20 @@
+.swiper {
+	width: 600px;
+	height: 300px;
+}
+
+.hero {
+	margin-top: 32px;
+	display: flex;
+
+	&__title {
+		font-size: 28px;
+		font-weight: 700;
+	}
+
+	&_subtitle {
+		font-size: 18px;
+		font-weight: 400;
+		color: $black;
+	}
+}
